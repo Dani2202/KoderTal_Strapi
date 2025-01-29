@@ -1,0 +1,36 @@
+{
+  "kind": "collectionType",
+  "collectionName": "candidate_infos",
+  "info": {
+    "singularName": "candidate-info",
+    "pluralName": "candidate-infos",
+    "displayName": "candidate-info"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "companyName": {
+      "type": "string"
+    },
+    "email": {
+      "type": "email"
+    },
+    "name": {
+      "type": "string"
+    },
+    "number": {
+      "type": "string"
+    },
+    "technologies": {
+      "type": "text"
+    },
+    "requried_resources": {
+      "type": "string"
+    },
+    "starting_info": {
+      "type": "text"
+    }
+  }
+}
